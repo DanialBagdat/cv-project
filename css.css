@@ -1,0 +1,227 @@
+/* CSS Stylesheet for Danial's Crypto Investor CV */
+
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Header */
+  header {
+    background-color: #0658FC;
+    color: #fff;
+    padding: 20px 20px 5px 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  nav ul {
+    margin-left: -9px;
+    margin-top: -2px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #d9ff00;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  section li {
+    margin: 0 0 10px 0;
+  }
+  
+  section li h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  
+  /* Experience */
+  #experience li {
+    border-left: 2px solid #333;
+    padding-left: 20px;
+  }
+  
+  /* Skills */
+
+  #skills {
+    padding: 20px;
+  }
+
+  #skills ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #skills li {
+    flex: 0 0 33%;
+    margin-bottom: 20px;
+  }
+  
+  /* Education */
+
+  #education {
+    padding: 20px
+  }
+
+  #education li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  #education li h3 {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  #education li p {
+    flex: 0 0 200px;
+    margin: 0;
+  }
+  
+  /* Awards */
+  #awards li {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact */
+
+  #contact {
+    padding: 20px;
+  }
+  #contact ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #contact li {
+    margin-bottom: 10px;
+  }
+  
+  #contact li a {
+    color: #002fff;
+    text-decoration: none;
+  }
+  
+  #contact li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* CSS Position */
+  #about {
+    position: relative;
+  }
+  
+  #about h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+  }
+  
+  /* CSS Float and Clear */
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* CSS Classes */
+  .highlight {
+    background-color: yellow;
+    padding:20px
+  }
+  
+  /* CSS IDs */
+  #experience {
+    background-color: #f1f1f1;
+    padding:20px
+  }
+  
+  #awards {
+    background-color: #f1f1f1;
+    padding:20px
+  }
+
+  #info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /* About */
+  #about {
+    background-color: #f1f1f1;
+    padding: 40px;
+    margin-left: 40px;
+  }
+
+    /* Photo */
+  #photo {
+    width: 400ox;
+    height:400px;
+  }
+
+  /* Logo */
+  #logo {
+    width: 10%;
+    height: 5%;
+    filter:invert(94%) sepia(47%) saturate(1850%) hue-rotate(325deg) brightness(100%) contrast(96%);
+  }
+
+  /* Header */
+  #header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #title {
+    display: flex;
+    flex-direction: column;
+  }
+  
